@@ -17,7 +17,7 @@ function Home() {
       setError("");
       setResult(null);
 
-      const res = await axios.post("https://resume-iq-backend-1.onrender.com", {
+      const res = await axios.post("https://resume-iq-backend-1.onrender.com/analyze", {
         resume,
         jd,
       }, {
