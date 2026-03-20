@@ -1,18 +1,54 @@
-# React + Vite
+# AI-Powered Resume Shortlisting Agent - Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern React-based frontend for an AI-powered resume screening system that evaluates candidates against job descriptions using artificial intelligence.
 
-Currently, two official plugins are available:
+## 🌟 Overview
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This frontend application serves as the user interface for the AI Resume Shortlisting Agent. It provides an intuitive platform for recruiters and HR professionals to upload resumes, input job descriptions, and receive AI-powered analysis results including shortlisting decisions, match scores, and detailed reasoning.
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
+### Core Functionality
+- **Resume Input**: Paste resume text or upload files (.txt, .pdf, .doc, .docx)
+- **Job Description Input**: Paste job description for comparison
+- **AI-Powered Analysis**: Connects to backend API for intelligent matching
+- **Real-time Results**: Instant display of analysis results
 
-Note: This will impact Vite dev & build performances.
+### Result Visualization
+- **Decision Badge**: Clear SHORTLISTED/REJECTED indicator with color coding
+- **Match Score**: Circular progress indicator with color coding based on 70% threshold
+- **Skills Analysis**: Tag-based display of matched and missing skills
+- **Detailed Breakdown**: Score breakdown for skills, experience, education, projects
+- **AI Reasoning**: Step-by-step display of the agent's reasoning process
 
-## Expanding the ESLint configuration
+### User Experience
+- **Loading States**: Animated spinner and pulse effects during analysis
+- **Error Handling**: User-friendly error messages with suggestions
+- **Responsive Design**: Optimized for desktop, tablet, and mobile devices
+- **File Upload**: Drag-and-drop or click to upload resume files
+- **Character Count**: Real-time counter for both inputs
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+- **React 18.2.0** - UI library
+- **Axios 1.6.0** - HTTP client for API requests
+- **CSS3** - Custom styling with animations
+- **Poppins Font** - Modern typography
+
+# File Structure
+src/
+├── components/
+│   ├── Home/
+│   │   ├── Home.jsx          # Main layout component
+│   │   └── Home.css          # Home component styles
+│   ├── Input/
+│   │   ├── Input.jsx         # Input form component
+│   │   └── Input.css         # Input form styles
+│   └── Result/
+│       ├── Result.jsx        # Results display component
+│       └── Result.css        # Results display styles
+├── App.js                     # Root component
+├── App.css                    # Global app styles
+├── index.js                   # Entry point
+└── index.css                  # Global styles
+
