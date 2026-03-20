@@ -36,19 +36,19 @@ This frontend application serves as the user interface for the AI Resume Shortli
 - **Poppins Font** - Modern typography
 
 # File Structure
-src/
-├── components/
-│   ├── Home/
-│   │   ├── Home.jsx          # Main layout component
-│   │   └── Home.css          # Home component styles
-│   ├── Input/
-│   │   ├── Input.jsx         # Input form component
-│   │   └── Input.css         # Input form styles
-│   └── Result/
-│       ├── Result.jsx        # Results display component
-│       └── Result.css        # Results display styles
-├── App.js                     # Root component
-├── App.css                    # Global app styles
-├── index.js                   # Entry point
-└── index.css                  # Global styles
+src/ <br>
+├── components/ <br>
+│   ├── Home/ <br>
+│   │   ├── Home.jsx          # Main layout component <br>
+│   │   └── Home.css          # Home component styles <br>
+│   ├── Input/ <br>
+│   │   ├── Input.jsx         # Input form component <br>
+│   │   └── Input.css         # Input form styles <br>
+│   └── Result/ <br>
+│       ├── Result.jsx        # Results display component <br>
+│       └── Result.css        # Results display styles <br>
+├── App.js                     # Root component<br>
+├── App.css                    # Global app styles <br>
+├── index.js                   # Entry point <br>
+└── index.css                  # Global styles<br>
 
