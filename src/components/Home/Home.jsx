@@ -17,7 +17,7 @@ function Home() {
       setError("");
       setResult(null);
 
-      const res = await axios.post("http://127.0.0.1:8000/analyze", {
+      const res = await axios.post("https://resume-iq-backend-1.onrender.com", {
         resume,
         jd,
       }, {
